@@ -8,7 +8,7 @@ def main():
     float = float(input())
     print("Give a boolean:")
     boolean = bool(input())
-    print("You gave the string " + str(string)
+    print("You gave the string " + str(string))
     print("You gave the integer " + str(integer))
     print("You gave the float " + str(float))
     print("You gave the boolean " + str(boolean))
