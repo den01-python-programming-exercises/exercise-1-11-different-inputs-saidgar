@@ -1,17 +1,17 @@
 def main():
     #write your code below this line
     print("Give a string:")
-    string = input()
+    input1 = input()
     print("Give an integer:")
-    integer = int(input())
+    input2 = int(input())
     print("Give a float:")
-    float = float(input())
+    input3 = float(input())
     print("Give a boolean:")
-    boolean = bool(input())
-    print("You gave the string " + str(string))
-    print("You gave the integer " + str(integer))
-    print("You gave the float " + str(float))
-    print("You gave the boolean " + str(boolean))
+    input4 = bool(input())
+    print("You gave the string " + str(input1))
+    print("You gave the integer " + str(input2))
+    print("You gave the float " + str(input3))
+    print("You gave the boolean " + str(input4))
 
 if __name__ == '__main__':
     main()
