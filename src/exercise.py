@@ -1,9 +1,13 @@
 def main():
     #write your code below this line
-    string = input("Give a string:")
-    integer = int(input("Give an integer:"))
-    float = float(input("Give a float:"))
-    boolean = bool(input("Give a boolean:"))
+    print("Give a string:")
+    string = input()
+    print("Give an integer:")
+    integer = int(input())
+    print("Give a float:")
+    float = float(input())
+    print("Give a boolean:")
+    boolean = bool(input())
     print("You gave the string " + string)
     print("You gave the integer " + integer)
     print("You gave the float " + float)
