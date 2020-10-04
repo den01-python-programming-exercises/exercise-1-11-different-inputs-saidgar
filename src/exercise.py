@@ -7,7 +7,7 @@ def main():
     print("You gave the string " + str(input1))
     print("You gave the integer " + str(input2))
     print("You gave the float " + str(input3))
-    print("You gave the boolean " + str(input4))
+    print("You gave the boolean " + input4)
 
 if __name__ == '__main__':
     main()
