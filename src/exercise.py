@@ -5,7 +5,7 @@ def main():
     print("Give an integer:")
     input2 = int(input())
     print("Give a float:")
-    input3 = int(input())
+    input3 = float(input())
     print("Give a boolean:")
     input4 = bool(input())
     print("You gave the string " + str(input1))
